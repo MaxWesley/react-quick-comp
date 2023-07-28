@@ -4,7 +4,7 @@ const yargs = require("yargs");
 const { createComponent } = require("./utils/create-component");
 
 yargs.command(
-  "react-component <componentName>",
+  "create <componentName>",
   "Cria um novo componente React",
   (yargs) => {
     yargs

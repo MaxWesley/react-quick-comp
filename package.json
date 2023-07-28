@@ -1,12 +1,8 @@
 {
   "name": "react-max-framework",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "create-component": "node index.js react-component ComponentTest --ts"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MaxWesley/react-max-framework.git"
@@ -25,6 +21,7 @@
     "yargs": "^17.7.2"
   },
   "bin": {
-    "react-component": "./index.js"
+    "react-max-framework": "./index.js",
+    "rmf": "./index.js"
   }
 }
