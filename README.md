@@ -64,6 +64,7 @@ Contributions are welcome! If you wish to collaborate with the project, follow t
 ### Contributors
 
 - [Max Wesley](https://github.com/MaxWesley) - Author and maintainer.
+- [Cristian J. Ambrosi](https://github.com/cjambrosi) - Add husk with commitlint, update gitignore file and add .editorconfig.
 
 ### License
 
@@ -73,7 +74,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions, suggestions, or need to get in touch, feel free to use one of the following methods:
 
-- E-mail: maxwesleydev@gmail.com; mx_wesley@hotmail.com
+- E-mail: maxwesleydev@gmail.com
 - LinkedIn: [Max Wesley](https://www.linkedin.com/in/max-wesley-0b721a140/)
 - GitHub: [MaxWesley](https://github.com/MaxWesley)
 
