@@ -13,6 +13,10 @@
   "bugs": {
     "url": "https://github.com/MaxWesley/react-max-framework/issues"
   },
+  "scripts": {
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
+  },
   "homepage": "https://github.com/MaxWesley/react-max-framework#readme",
   "dependencies": {
     "ejs": "^3.1.9",
@@ -23,5 +27,16 @@
   "bin": {
     "react-max-framework": "./index.js",
     "rmf": "./index.js"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
   }
 }
