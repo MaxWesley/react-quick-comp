@@ -1,8 +1,9 @@
-const TEMPLATE_FOLDER = "templates";
 
 const { readFileSync, writeFileSync } = require("fs-extra");
 const { render } = require("ejs");
 const { join } = require("path");
+
+const TEMPLATE_FOLDER = "templates";
 
 const { TEMPLATE_EXTENSIONS } = require("./template-extensions");
 
@@ -11,6 +12,7 @@ function createComponentFile(componentName, fileType, typescript) {
     TEMPLATE_EXTENSIONS[fileType][typescript ? "ts" : "js"];
 
   const filePath = join(
+    __dirname,
     TEMPLATE_FOLDER,
     typescript ? "typescript" : "javascript",
     `${fileType}.${templateExtension}.ejs`

@@ -4,6 +4,7 @@ const { join } = require("path");
 
 function createComponent(argvs) {
   const { componentName, typescript, stylesheet, test, all } = argvs;
+
   const folderPath = join(process.cwd(), componentName);
 
   if (existsSync(folderPath)) {
@@ -11,7 +12,6 @@ function createComponent(argvs) {
   }
 
   mkdirSync(folderPath);
-  console.log(`Pasta do componente "${componentName}" criada com sucesso.`);
 
   if (all) {
     createComponentFile(componentName, "component", typescript);
