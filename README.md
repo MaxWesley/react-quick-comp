@@ -1,75 +1,86 @@
 ## react-max-framework
 
-Uma ferramenta para facilitar a criação de componentes React via linha de comando.
+A tool to facilitate the creation of React components via the command line.
 
-### Descrição
+### Description
 
-O `react-max-framework` é uma ferramenta que visa simplificar a criação de novos componentes React em projetos. Com apenas um comando, você pode gerar rapidamente a estrutura básica de um novo componente, permitindo que você se concentre mais na lógica específica do componente e menos na configuração inicial.
+`react-max-framework` is a tool aimed at simplifying the creation of new React components in projects. With just one command, you can quickly generate the basic structure of a new component, allowing you to focus more on the specific logic of the component and less on the initial setup.
 
-### Instalação
+### Installation
 
-Para instalar globalmente a ferramenta `react-max-framework`, execute o seguinte comando:
+To install the `react-max-framework` tool globally, execute the following command:
 
 ```bash
 npm install -g react-max-framework
 ```
 
-### Uso
+### Usage
 
-Para criar um novo componente, utilize o seguinte comando:
+To create a new component, use the following command:
 
 ```bash
-rmf create NomeDoComponente
+rmf create ComponentName
 ```
 
-Isso criará uma pasta com o nome do componente contendo o arquivo `index.js` e a estrutura básica do componente.
+This will create a folder with the component name, containing the `index.js` file and the basic structure of the component.
 
-### Documentação
+### Documentation
 
-#### Flags disponíveis:
+#### Available flags:
 
-- `--ts`: Cria um componente TypeScript com uma interface.
-- `--css`: Cria um componente com um arquivo de estilo (usando styled-components).
-- `--all`: Cria um componente com arquivo de teste e estilo.
+- `--ts`: Creates a TypeScript component with an interface.
+- `--css`: Creates a component with a style file (using styled-components).
+- `--all`: Creates a component with a test file and style.
 
-### Exemplos
+### Examples
 
-Aqui estão alguns exemplos de como você pode usar o `react-max-framework` para agilizar seu fluxo de trabalho:
+Here are some examples of how you can use `react-max-framework` to streamline your workflow:
 
-1. Criar um componente básico:
+1. Create a basic component:
 ```bash
 rmf create Button
 ```
 
-2. Criar um componente TypeScript com interface:
+2. Create a TypeScript component with an interface:
 ```bash
 rmf create Input --ts
 ```
 
-3. Criar um componente com arquivo de estilo usando styled-components:
+3. Create a component with a style file using styled-components:
 ```bash
 rmf create Card --css
 ```
 
-### Contribuição
+### Contribution
 
-Contribuições são bem-vindas! Se você deseja colaborar com o projeto, siga os passos abaixo:
+Contributions are welcome! If you wish to collaborate with the project, follow the steps below:
 
-1. Faça um fork do repositório `react-max-framework` no GitHub.
-2. Crie um novo branch com suas modificações: `git checkout -b minha-contribuicao`.
-3. Faça as alterações desejadas e commit: `git commit -m "Minha contribuição"`.
-4. Envie suas alterações para o repositório remoto: `git push origin minha-contribuicao`.
-5. Abra um Pull Request para que suas mudanças sejam revisadas e incorporadas ao projeto.
+1. Fork the `react-max-framework` repository on GitHub.
+2. Create a new branch with your modifications: `git checkout -b my-contribution`.
+3. Make the desired changes and commit: `git commit -m "My contribution"`.
+4. Send your changes to the remote repository: `git push origin my-contribution`.
+5. Open a Pull Request so that your changes can be reviewed and incorporated into the project.
 
-### Licença
+### Contributors
 
-Este projeto é licenciado sob a [MIT License](LICENSE).
+- [Max Wesley](https://github.com/MaxWesley) - Author and maintainer.
 
-### Contato
+### License
 
-Se tiver alguma dúvida, sugestão ou precisar entrar em contato, sinta-se à vontade para utilizar um dos seguintes meios:
+This project is licensed under the [MIT License](LICENSE).
 
-- Autor: Max Wesley, Software Engineer. FrontEnd at GaveaMarketplace
+### Contact
+
+If you have any questions, suggestions, or need to get in touch, feel free to use one of the following methods:
+
 - E-mail: maxwesleydev@gmail.com; mx_wesley@hotmail.com
 - LinkedIn: [Max Wesley](https://www.linkedin.com/in/max-wesley-0b721a140/)
 - GitHub: [MaxWesley](https://github.com/MaxWesley)
+
+### GitHub
+
+- Repository: [react-max-framework](https://github.com/MaxWesley/react-max-framework)
+
+### NPM
+
+- Package: [react-max-framework](https://www.npmjs.com/package/react-max-framework)

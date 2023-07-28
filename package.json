@@ -1,7 +1,7 @@
 {
   "name": "react-max-framework",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.0.6",
+  "description": "A tool to facilitate the creation of React components via the command line.",
   "main": "index.js",
   "repository": {
     "type": "git",
