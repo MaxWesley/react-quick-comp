@@ -1,14 +1,29 @@
 {
   "name": "react-max-framework",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A tool to facilitate the creation of React components via the command line.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MaxWesley/react-max-framework.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "react-native",
+    "next",
+    "javascript",
+    "typescript",
+    "component",
+    "react-component",
+    "react-lib",
+    "cli",
+    "command-line",
+    "generator",
+    "react-components",
+    "development",
+    "styled-components"
+  ],
+  "author": "Max Wesley",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MaxWesley/react-max-framework/issues"
