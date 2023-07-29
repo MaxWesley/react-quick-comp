@@ -1,11 +1,11 @@
 {
-  "name": "react-max-framework",
-  "version": "1.0.9",
-  "description": "A tool to facilitate the creation of React components via the command line.",
+  "name": "react-quick-comp",
+  "version": "1.1.0",
+  "description": "A tool to facilitate the quick creation of React components via the command line.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaxWesley/react-max-framework.git"
+    "url": "git+https://github.com/MaxWesley/react-quick-comp.git"
   },
   "keywords": [
     "react",
@@ -26,13 +26,13 @@
   "author": "Max Wesley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MaxWesley/react-max-framework/issues"
+    "url": "https://github.com/MaxWesley/react-quick-comp/issues"
   },
   "scripts": {
     "prepare": "husky install",
     "pre-commit": "lint-staged"
   },
-  "homepage": "https://github.com/MaxWesley/react-max-framework#readme",
+  "homepage": "https://github.com/MaxWesley/react-quick-comp#readme",
   "dependencies": {
     "ejs": "^3.1.9",
     "fs-extra": "^11.1.1",
@@ -40,7 +40,7 @@
     "yargs": "^17.7.2"
   },
   "bin": {
-    "react-max-framework": "./index.js",
+    "react-quick-comp": "./index.js",
     "rmf": "./index.js"
   },
   "devDependencies": {

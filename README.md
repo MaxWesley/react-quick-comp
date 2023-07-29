@@ -1,17 +1,17 @@
-## react-max-framework
+## react-quick-comp
 
 A tool to facilitate the creation of React components via the command line.
 
 ### Description
 
-`react-max-framework` is a tool aimed at simplifying the creation of new React components in projects. With just one command, you can quickly generate the basic structure of a new component, allowing you to focus more on the specific logic of the component and less on the initial setup.
+`react-quick-comp` is a tool aimed at simplifying the creation of new React components in projects. With just one command, you can quickly generate the basic structure of a new component, allowing you to focus more on the specific logic of the component and less on the initial setup.
 
 ### Installation
 
-To install the `react-max-framework` tool globally, execute the following command:
+To install the `react-quick-comp` tool globally, execute the following command:
 
 ```bash
-npm install -g react-max-framework
+npm install -g react-quick-comp
 ```
 
 ### Usage
@@ -36,7 +36,7 @@ This will create a folder with the component name, containing the `index.js` fil
 
 ### Examples
 
-Here are some examples of how you can use `react-max-framework` to streamline your workflow:
+Here are some examples of how you can use `react-quick-comp` to streamline your workflow:
 
 1. Create a basic component:
 ```bash
@@ -57,7 +57,7 @@ rmf create Card --css
 
 Contributions are welcome! If you wish to collaborate with the project, follow the steps below:
 
-1. Fork the `react-max-framework` repository on GitHub.
+1. Fork the `react-quick-comp` repository on GitHub.
 2. Create a new branch with your modifications: `git checkout -b my-contribution`.
 3. Make the desired changes and commit: `git commit -m "My contribution"`.
 4. Send your changes to the remote repository: `git push origin my-contribution`.
@@ -82,8 +82,8 @@ If you have any questions, suggestions, or need to get in touch, feel free to us
 
 ### GitHub
 
-- Repository: [react-max-framework](https://github.com/MaxWesley/react-max-framework)
+- Repository: [react-quick-comp](https://github.com/MaxWesley/react-quick-comp)
 
 ### NPM
 
-- Package: [react-max-framework](https://www.npmjs.com/package/react-max-framework)
+- Package: [react-quick-comp](https://www.npmjs.com/package/react-quick-comp)
