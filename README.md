@@ -1,6 +1,6 @@
 ## react-quick-comp
 
-A tool to facilitate the creation of React components via the command line.
+A tool to facilitate the quick creation of React components via the command line.
 
 ### Description
 
