@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const yargs = require("yargs");
+const { validateEntries } = require("./middlewares/validate-entries");
 const { createComponent } = require("./utils/create-component");
 
 yargs.command(
@@ -35,9 +36,10 @@ yargs.command(
   },
   (argv) => {
     try {
+      validateEntries(argv);
       createComponent(argv);
     } catch (error) {
-      console.error("Erro ao criar componente:", error.message);
+      console.error("Erro ao criar componente: \n", error.message);
     }
   }
 ).argv;
