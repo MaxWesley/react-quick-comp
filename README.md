@@ -16,6 +16,8 @@ npm install -g react-max-framework
 
 ### Usage
 
+**Note: Before running the following command, make sure to open the folder where you want to create the new component in your terminal.**
+
 To create a new component, use the following command:
 
 ```bash
