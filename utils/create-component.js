@@ -17,7 +17,7 @@ function createComponent(argvs) {
     createComponentFile(componentName, "component", typescript, native);
     createComponentFile(componentName, "styles", typescript, native);
     createComponentFile(componentName, "test", typescript, native);
-    console.log(`Componente "${componentName}" criado com sucesso!`);
+    console.log(`Component "${componentName}" created successfully!`);
 
     return;
   }
@@ -30,7 +30,7 @@ function createComponent(argvs) {
     createComponentFile(componentName, "test", typescript, native);
   }
 
-  console.log(`Componente "${componentName}" criado com sucesso!`);
+  console.log(`Component "${componentName}" created successfully!`);
 }
 
 module.exports = { createComponent };

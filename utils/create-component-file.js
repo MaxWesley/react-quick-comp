@@ -31,8 +31,6 @@ function createComponentFile(componentName, fileType, isTypeScript, isNative) {
 
   const filePath = join(__dirname, templateFolder, scriptFolder, fileName);
   
-  console.log({ filePath });
-
   const fileContent = render(readFileSync(filePath, "utf-8"), {
     componentName,
   });
