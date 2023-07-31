@@ -21,7 +21,7 @@ npm install -g react-quick-comp
 To create a new component, use the following command:
 
 ```bash
-rmf create ComponentName
+rqc create ComponentName
 ```
 
 This will create a folder with the component name, containing the `index.js` file and the basic structure of the component.
@@ -40,17 +40,17 @@ Here are some examples of how you can use `react-quick-comp` to streamline your 
 
 1. Create a basic component:
 ```bash
-rmf create Button
+rqc create Button
 ```
 
 2. Create a TypeScript component with an interface:
 ```bash
-rmf create Input --ts
+rqc create Input --ts
 ```
 
 3. Create a component with a style file using styled-components:
 ```bash
-rmf create Card --css
+rqc create Card --css
 ```
 
 ### Contribution

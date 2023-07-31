@@ -1,6 +1,6 @@
 {
   "name": "react-quick-comp",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A tool to facilitate the quick creation of React components via the command line.",
   "main": "index.js",
   "repository": {
@@ -40,7 +40,7 @@
   },
   "bin": {
     "react-quick-comp": "./index.js",
-    "rmf": "./index.js"
+    "rqc": "./index.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
