@@ -4,6 +4,7 @@ const yargs = require("yargs");
 const { validateEntries } = require("./middlewares/validate-entries");
 const { createComponent } = require("./utils/create-component");
 
+console.log("entrou");
 yargs.command(
   "create <componentName>",
   "Cria um novo componente React",
@@ -12,6 +13,11 @@ yargs.command(
       .positional("componentName", {
         describe: "Nome do componente a ser criado",
         type: "string",
+      })
+      .option("native", {
+        alias: "rn",
+        describe: "Cria um componente react-native",
+        type: "boolean",
       })
       .option("triad", {
         alias: "all",
@@ -36,9 +42,11 @@ yargs.command(
   },
   (argv) => {
     try {
+      console.log('teste 2');
       validateEntries(argv);
       createComponent(argv);
     } catch (error) {
+      console.log('erro');
       console.error("Erro ao criar componente: \n", error.message);
     }
   }

@@ -53,6 +53,11 @@ rqc create Input --ts
 rqc create Card --css
 ```
 
+3. Create a React-Native component with style and test file usign Typescript:
+```bash
+rqc create Card --native --ts --all
+```
+
 ### Contribution
 
 Contributions are welcome! If you wish to collaborate with the project, follow the steps below:

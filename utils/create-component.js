@@ -3,7 +3,7 @@ const { existsSync, mkdirSync } = require("fs-extra");
 const { join } = require("path");
 
 function createComponent(argvs) {
-  const { componentName, typescript, stylesheet, test, all } = argvs;
+  const { componentName, typescript, stylesheet, test, all, native } = argvs;
 
   const folderPath = join(process.cwd(), componentName);
 
@@ -14,17 +14,20 @@ function createComponent(argvs) {
   mkdirSync(folderPath);
 
   if (all) {
-    createComponentFile(componentName, "component", typescript);
-    createComponentFile(componentName, "styles", typescript);
-    createComponentFile(componentName, "test", typescript);
-  } else {
-    createComponentFile(componentName, "component", typescript);
-    if (stylesheet) {
-      createComponentFile(componentName, "styles", typescript);
-    }
-    if (test) {
-      createComponentFile(componentName, "test", typescript);
-    }
+    createComponentFile(componentName, "component", typescript, native);
+    createComponentFile(componentName, "styles", typescript, native);
+    createComponentFile(componentName, "test", typescript, native);
+    console.log(`Componente "${componentName}" criado com sucesso!`);
+
+    return;
+  }
+
+  createComponentFile(componentName, "component", typescript, native);
+  if (stylesheet) {
+    createComponentFile(componentName, "styles", typescript, native);
+  }
+  if (test) {
+    createComponentFile(componentName, "test", typescript, native);
   }
 
   console.log(`Componente "${componentName}" criado com sucesso!`);
