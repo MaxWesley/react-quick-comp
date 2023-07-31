@@ -1,6 +1,6 @@
 {
   "name": "react-quick-comp",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A tool to facilitate the quick creation of React components via the command line.",
   "main": "index.js",
   "repository": {
